@@ -19,3 +19,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Authentication Requirement
+
+Only familiar connectors signed by petabyte.monster can authenticate to the
+platform. Unsigned builds (forks, local builds) will be rejected.
+
+This ensures the connector in your network is the exact code published in
+official releases — no backdoors, no modifications.
+
+You can still:
+- Read, fork, and modify this code (MIT licensed)
+- Use it for any purpose
+- Redistribute modified versions
+
+Modified versions just won't connect to petabyte.monster.
+
+Details: https://github.com/leighNZ/petabyte.monster-familiar/blob/main/docs/CODE_SIGNING.md
+Releases: https://github.com/leighNZ/petabyte.monster-familiar/releases
